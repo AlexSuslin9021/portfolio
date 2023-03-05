@@ -4,12 +4,13 @@ import styleContainer from '../../common/styles/Container.module.css'
 
 
 
-function Works() {
+function Works(props) {
     return (
-        <div >
-
-
-
+        <div  className={s.work}>
+            <div className={s.icon}></div>
+            <button> Watching </button>
+            <h4> {props.title} </h4>
+            <span> {props.description}</span>
         </div>
     )
 }
