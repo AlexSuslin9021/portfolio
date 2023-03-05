@@ -1,0 +1,20 @@
+
+.workBlock {
+    width: 100vw;
+    height: 500px;
+    background: #d3d1e7;
+}
+
+.workContainer{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.titleWork{
+
+}
+.myWorks{
+    border: 1px solid ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

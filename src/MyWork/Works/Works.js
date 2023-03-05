@@ -14,4 +14,4 @@ function Works() {
     )
 }
 
-export default MyWork;
+export default Works;
