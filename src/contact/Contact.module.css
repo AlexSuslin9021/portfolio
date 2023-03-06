@@ -1,0 +1,23 @@
+
+
+.contactBlock{
+   background: lightpink;
+   height: 100vh;
+}
+.contact{
+
+
+   flex-direction: column;
+
+   /*justify-content: flex-end;*/
+   /*align-items: center;*/
+}
+.form{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: flex-start;
+   width: 400px;
+   height: 250px;
+   border: 1px solid;
+}
