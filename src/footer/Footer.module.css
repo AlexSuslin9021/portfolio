@@ -1,0 +1,30 @@
+
+
+.footerBlock{
+   background: lightgoldenrodyellow;
+   /*height: 100vh;*/
+}
+.footer{
+   flex-direction: column;
+    justify-content: flex-start;
+}
+.icon {
+    margin: 20px 0 20px 0;
+   display: flex;
+  width: 280px;
+   height: 100px;
+   border: 1px solid;
+   justify-content: space-between;
+}
+.icon div{
+   height: 100%;
+   width: 50px;
+   background: lightgrey;
+}
+
+.title{
+   background: lightgrey;
+}
+.bottom{
+   background: lightgrey;
+}

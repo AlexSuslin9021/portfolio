@@ -6,5 +6,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
+
+/*h2 {*/
+/*    font-family: font-file-82132;*/
+/*    color: #08fdd8;*/
+/*    font-weight: 400;*/
+/*    margin-top: 0;*/
+/*    position: relative;*/
+/*    margin-bottom: 40px;*/
+/*    left: -10px;*/
+/*    font-size: 7.3rem;*/
+/*    line-height: 6.7rem;*/
+/*}*/

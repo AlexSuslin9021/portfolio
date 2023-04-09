@@ -1,7 +1,7 @@
 
 .skillsBlock{
-    height: 100vh;
-    background: lightgreen;
+    /*min-height: 100vh;*/
+    background: rgb(29,29,29);
 
 }
 
@@ -9,12 +9,19 @@
   flex-direction: column;
     justify-content: flex-start;
 }
-.title{
 
-}
+
+/*@media screen and (max-width: 900px);*/
+
+
+
+/*.title{*/
+/*color:white;*/
+/*}*/
 .skills{
     border: 1px solid ;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }

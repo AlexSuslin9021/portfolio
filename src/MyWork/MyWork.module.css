@@ -1,6 +1,6 @@
 .myWorkBlock{
-background: lightgoldenrodyellow;
-  height: 100vh;
+  background-color: rgb(29,29,29)
+  /*height: 100vh;*/
 }
 .myWorkContainer{
   flex-direction: column;
@@ -8,11 +8,19 @@ background: lightgoldenrodyellow;
 }
 
 .title{
-
+  font-family: Josefin Sans, sans-serif;
+  color:white;
 }
 .works{
   display: flex;
   width: 100%;
   justify-content: space-between;
   border: 1px solid;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 864px){
+  .works{
+    justify-content: center;
+  }
 }

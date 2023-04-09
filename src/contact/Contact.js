@@ -6,11 +6,13 @@ export function Contact() {
     return (
         <div className={s.contactBlock}>
             <div className={`${styleContainer.container} ${s.contact} `}>
-                <div> Contact</div>
+                <span className={s.title}> Contact</span>
                 <form action="" className={s.form}>
-                    <input type="text"/>
-                    <input type="text"/>
+
+                   <input type="text"/>
+                   <input type="text"/>
                     <textarea ></textarea>
+
                 </form>
                 <button>Отправить</button>
             </div>
