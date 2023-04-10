@@ -11,10 +11,14 @@
 .icon {
     width: 100%;
     height: 200px;
-    background: lightpink;
+    /*background: lightpink;*/
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size:cover ;
+    background-position: center;
+    background-repeat:no-repeat ;
+
     /*text-decoration: none;*/
 }
 .icon a{

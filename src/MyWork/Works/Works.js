@@ -5,7 +5,7 @@ import s from './Works.module.css';
 function Works(props) {
     return (
         <div className={s.work}>
-            <div className={s.icon}>
+            <div className={s.icon} style={props.style}>
                <a href="https://www.google.ru/" >Watching</a>
             </div>
             <div className={s.titleDescription}>

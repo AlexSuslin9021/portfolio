@@ -3,11 +3,16 @@ import s from './MyWork.module.css';
 import styleContainer from '../common/styles/Container.module.css'
 import Works from "./Works/Works";
 import {Title} from "../title/Title";
+import todoImage from '../assets/image/todo.jpeg'
+import socialNet from '../assets/image/social.jpeg'
 
 
 function MyWork() {
     const social={
-        backgroundImage:''
+        backgroundImage: `url(${socialNet})`
+    }
+    const todo={
+        backgroundImage: `url(${todoImage})`
     }
     return (
         <div className={s.myWorkBlock}>
@@ -15,8 +20,8 @@ function MyWork() {
                 <Title title={'My Works'}/>
                 {/*<h2 className={s.title}> My Works</h2>*/}
                 <div className={s.works}>
-                <Works title={'container1'} description={'Learn modern React from scratch Learn modern React from scratch'}/>
-                <Works title={'container2'} description={'Learn modern React from scratch Learn modern React from scratch, '}/>
+                <Works style={social} title={'container1'} description={'Learn modern React from scratch Learn modern React from scratch'}/>
+                <Works style={todo} title={'container2'} description={'Learn modern React from scratch Learn modern React from scratch, '}/>
                 </div>
             </div>
         </div>
