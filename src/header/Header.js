@@ -4,9 +4,11 @@ import Nav from "../nav/Nav";
 
 function Header() {
   return(
+
   <div className={s.header} >
     <Nav />
-  </div>)
+  </div>
+  )
 }
 
 export default Header;

@@ -7,12 +7,12 @@ function Main() {
     return (
         <div className={s.mainBlock}>
             <div className={styleContainer.container}>
-                <div className={s.text}>
-                    <span>Hi there</span>
-                    <h1>I am Alex Suslin</h1>
-                    <p>Frontend Developer</p>
-                </div>
-                <div className={s.photo}></div>
+                <h1 className={s.text}>
+                    <span className={s.hi}>Hi, </span>
+                    <span className={s.hi} >I'm Alex,</span>
+                    <span className={s.front}>Frontend Developer</span>
+                </h1>
+                {/*<div className={s.photo}></div>*/}
             </div>
 
         </div>

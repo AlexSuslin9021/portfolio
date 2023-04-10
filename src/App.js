@@ -6,6 +6,7 @@ import Skills from "./skills/Skills";
 import MyWork from "./MyWork/MyWork";
 import {Contact} from "./contact/Contact";
 import {Footer} from "./footer/Footer";
+import Nav from "./nav/Nav";
 
 
 function App() {

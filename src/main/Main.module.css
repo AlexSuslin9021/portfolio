@@ -1,22 +1,30 @@
 
 .mainBlock {
     height: 100vh;
-    background: pink;
+    background: rgb(29,29,29);
 
 }
 
 
-h1{
+h1,.hi,.front{
     color: #fff;
-    margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
+    /*margin: 0;*/
+    font-family: Rubik, sans-serif;
     font-weight: 400;
-    /*font-size: 10.3rem;*/
-    line-height: 8.7rem;
+    background: rgb(29,29,29);
+    line-height: 1;
+
+    font-size: 70px;
+    position: relative;
+
 }
 .text {
-    width: 300px;
-    background: lightgrey;
+    width: 700px;
+    background: rgb(29,29,29);
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-start;
+
 }
 
 .photo {
@@ -24,4 +32,23 @@ h1{
     height: 300px;
     background: lightgrey;
 
+}
+h1:before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-top: -20px;
+    left: -20px;
+}
+
+h1:after {
+    content: '<h1/>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-top:210px;
+    left: -20px;
 }
