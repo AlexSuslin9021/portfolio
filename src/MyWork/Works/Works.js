@@ -6,7 +6,7 @@ function Works(props) {
     return (
         <div className={s.work}>
             <div className={s.icon} style={props.style}>
-               <a href="https://www.google.ru/" >Watching</a>
+               <a href="https://www.google.ru/" > <span className={s.imageTitle}>View Project</span> </a>
             </div>
             <div className={s.titleDescription}>
                 <h4> {props.title} </h4>
