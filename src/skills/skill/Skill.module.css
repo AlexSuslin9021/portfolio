@@ -1,17 +1,38 @@
 
 .skill {
-    max-width: 250px;
-    background: lightyellow;
+    width: 368px;
+    height: 200px;
+    background: #1d1d1d;
+    border-top: 3px solid  orange; ;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 5px;
+    color: orange;
+    font: 500 13px  Open Sans  ;
 }
-
-.icon {
+.box{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.text{
+    font-size: 16px;
+    font-family: Open Sans,sans-serif;
+    color: #a7a7a7;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+img {
     width: 60px;
     height: 60px;
-    background: pink;
+    /*background:  #1d1d1d;*/
+}
+.mrg{
+    height: 20px;
+    width: 100%;
+    background:#1d1d1d; ;
+
+
 }
 
