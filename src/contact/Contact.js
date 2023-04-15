@@ -10,12 +10,12 @@ export function Contact() {
                 <Title title={'Contact'}/>
                 <form action="" className={s.form}>
 
-                   <input type="text"/>
-                   <input type="text"/>
-                    <textarea ></textarea>
+                   <input  placeholder={'Name'} type="text"/>
+                   <input  placeholder={'Email'}  type="text"/>
+                    <textarea  placeholder={'Message'} ></textarea>
 
                 </form>
-                <button>Отправить</button>
+                <button className={s.send}>Send message</button>
             </div>
         </div>)
 }
