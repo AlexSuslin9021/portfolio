@@ -14,7 +14,7 @@ export function Footer() {
     return (
         <div className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footer} `}>
-                {/*<Title title={'Alex Suslin'}/>*/}
+                {/*<Title title={''}/>*/}
                 <div className={s.cont}>
                 <div className={s.iconContainer}>
                     <div  className={s.icon}> <img src={what} alt=""/> <span> 8-905-771-16-16</span></div>

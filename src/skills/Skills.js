@@ -13,6 +13,7 @@ import formik from '../assets/image/logo/formik.svg'
 import reduxToolkit from '../assets/image/logo/reduxToolkit.svg'
 import restApi from '../assets/image/logo/restAPI.svg'
 import JS from '../assets/image/logo/javaScript.svg'
+import {Description} from "../Description/Description";
 
 
 function Skills() {
@@ -58,6 +59,7 @@ function Skills() {
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}` }>
                 <Title title={'Skills'}/>
+                <Description/>
                <div className={s.skills}>
                <Skill title={'HTML'} description={'Fun fact: all websites use HTML — even this one.'} src={html} style={cssClass}/>
                <Skill title={'CSS'} description={'You’ll find learning CSS essential in styling websites.'} src={css} style={htmlClass}/>

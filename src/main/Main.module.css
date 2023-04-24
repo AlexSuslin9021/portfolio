@@ -14,7 +14,7 @@ h1,.hi,.front{
     background: rgb(29,29,29);
     line-height: 1;
 
-    font-size: 70px;
+    font-size: 60px;
     position: relative;
 
 }
@@ -39,7 +39,7 @@ h1:before {
     color: #515152;
     font-size: 1.8rem;
     position: absolute;
-    margin-top: -20px;
+    margin-top: -50px;
     left: -20px;
 }
 
@@ -49,6 +49,12 @@ h1:after {
     color: #515152;
     font-size: 1.8rem;
     position: absolute;
-    margin-top:210px;
+    margin-top:230px;
     left: -20px;
+}
+
+@media screen and (max-width: 864px){
+    h1,.hi,.front{
+        font-size: 40px;
+    }
 }

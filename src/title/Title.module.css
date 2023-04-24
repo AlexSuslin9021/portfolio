@@ -33,9 +33,12 @@ h2:after {
 
 
 .title {
-
+display: flex;
+    width: 100%;
+    justify-content: flex-start;
     margin-top: 30px;
     margin-bottom: 30px;
     color: rgb(121, 247, 218);
     font-family: Rubik, sans-serif;
+
 }
