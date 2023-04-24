@@ -61,16 +61,16 @@ function Skills() {
                 <Title title={'Skills'}/>
                 <Description/>
                <div className={s.skills}>
-               <Skill title={'HTML'} description={'Fun fact: all websites use HTML — even this one.'} src={html} style={cssClass}/>
-               <Skill title={'CSS'} description={'You’ll find learning CSS essential in styling websites.'} src={css} style={htmlClass}/>
-                   <Skill title={'React'} description={'Learn modern React from scratch, and practice in an intuitive environment. .'} src={react} style={htmlClass}/>
-               <Skill title={'ReduxToolkit'} description={'You’ll find learning CSS essential in styling websites.'} src={reduxToolkit} style={reduxC}/>
-                   <Skill title={'JavaScript'} description={'You’ll find learning CSS essential in styling websites.'} src={JS} style={js}/>
-               <Skill title={'Storybook'} description={'You’ll find learning CSS essential in styling websites.'} src={story} style={unitStory}/>
-               <Skill title={'TypeScript'} description={'You’ll find learning CSS essential in styling websites.'} src={type} style={typeC}/>
-               <Skill title={'RestApi'} description={'You’ll find learning CSS essential in styling websites.'} src={restApi} style={restApiC}/>
-               <Skill title={'Formik'} description={'You’ll find learning CSS essential in styling websites.'} src={formik} style={formikC}/>
-               <Skill title={'Unit'} description={'You’ll find learning CSS essential in styling websites.'} src={unit} style={unitStory}/>
+               <Skill title={'HTML'} description={'Basic knowledge HTML5.'} src={html} style={cssClass}/>
+               <Skill title={'CSS'} description={'Basic knowledge css, Animation, flexbox, Scss, media query.'} src={css} style={htmlClass}/>
+                   <Skill title={'React'} description={'Hook, Hoc,VirtualDom,  functional and class component.'} src={react} style={htmlClass}/>
+               <Skill title={'ReduxToolkit'} description={'Redux and Redux TLK. Thunk.'} src={reduxToolkit} style={reduxC}/>
+                   <Skill title={'JavaScript'} description={'Basic knowledge,  Promise, async/await, type server requests, array and object method …'} src={JS} style={js}/>
+               <Skill title={'Storybook'} description={'Component create for interface.'} src={story} style={unitStory}/>
+               <Skill title={'TypeScript'} description={'All projects write on typescript.'} src={type} style={typeC}/>
+               <Skill title={'RestApi'} description={'Type requests, Request, Response, коды ответа HTTP.'} src={restApi} style={restApiC}/>
+               <Skill title={'Formik'} description={'Basic knowledge Formik.'} src={formik} style={formikC}/>
+               <Skill title={'Unit'} description={'JavaScript unit testing allows you to test small, self-contained units of JavaScript code, which are part of a web page or web application.'} src={unit} style={unitStory}/>
 
 
                </div>

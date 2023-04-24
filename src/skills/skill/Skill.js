@@ -13,7 +13,7 @@ function Skill(props) {
             <h3>{props.title}</h3>
             <span className={s.text}>{props.description}</span>
             </div>
-            <div className={s.mrg} > </div>
+            {/*<div className={s.mrg} > </div>*/}
         </div>
     )
 }

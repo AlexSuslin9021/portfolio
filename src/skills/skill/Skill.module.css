@@ -14,6 +14,10 @@
 }
 .box{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 100%;
+    height: 160px;
+
+
 }
 .text{
     font-size: 16px;
@@ -31,7 +35,7 @@ img {
 .mrg{
     height: 20px;
     width: 100%;
-    background:#1d1d1d; ;
+    background:#1d1d1d;
 
 
 }
