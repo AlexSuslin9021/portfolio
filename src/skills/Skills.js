@@ -54,7 +54,7 @@ function Skills() {
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}` }>
                 <Title title={'Skills'}/>
-                <Description/>
+                <Description text={'Here is the basic stack of technologies that I own. Every day I improve my knowledge, try to apply relevant technologies and go with the times'}/>
                <div className={s.skills}>
                <Skill title={'HTML'} description={'Basic knowledge HTML5.'} src={html} style={cssClass}/>
                <Skill title={'CSS'} description={'Basic knowledge css, Animation, flexbox, Scss, media query.'} src={css} style={htmlClass}/>

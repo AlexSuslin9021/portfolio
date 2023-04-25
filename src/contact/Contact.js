@@ -9,7 +9,7 @@ export function Contact() {
         <div className={s.contactBlock}>
             <div className={`${styleContainer.container} ${s.contact} `}>
                 <Title title={'Contact'}/>
-                <Description/>
+                <Description text={'If you are interested in my resume or you have any questions, you can use the form. I will be glad to discuss cooperation'}/>
                 <form action="" className={s.form}>
 
                    <input  placeholder={'Name'} type="text"/>

@@ -20,10 +20,10 @@ function MyWork() {
             <div className={`${styleContainer.container} ${s.myWorkContainer}`}>
                 <Title title={'My Works'}/>
                 {/*<h2 className={s.title}> My Works</h2>*/}
-                <Description/>
+                <Description text={'These are my projects. They reflect the skills that I currently have. As my knowledge improves, new technologies will be added to projects.'}/>
                 <div className={s.works}>
-                <Works style={social} title={'container1'} description={'Learn modern React from scratch Learn modern React from scratch'}/>
-                <Works style={todo} title={'container2'} description={'Learn modern React from scratch Learn modern React from scratch, '}/>
+                <Works style={social} title={'Social network'} description={'Stack: React, Redux, Thunk, Axios, Hook form, TypeScript, unitTest, Storybook, class component,React-Router-dom'}/>
+                <Works style={todo} title={'Todolist'} description={'Stack: React, Redux TLK, Thunk, Axios, Hook form, TypeScript, unitTest, Storybook, Formik, Material UI,React-Router-dom '}/>
                 </div>
             </div>
         </div>

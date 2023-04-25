@@ -1,6 +1,7 @@
 import React from 'react'
 import s from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
+import photo from '../assets/A&A.jpg'
 
 
 function Main() {
@@ -12,7 +13,7 @@ function Main() {
                     <span className={s.hi} >I'm Alex,</span>
                     <span className={s.front}>Frontend Developer</span>
                 </h1>
-                {/*<div className={s.photo}></div>*/}
+                <div className={s.photo}><img src={photo} alt=""/></div>
             </div>
 
         </div>

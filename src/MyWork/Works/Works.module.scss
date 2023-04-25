@@ -59,7 +59,9 @@
         .imageTitle{
             display: inline-block;
             margin: 0 auto;
-            color: black;
+           color: black;
+            font-family: La Belle Aurore, cursive;
+            font-weight: 600;
         }
     }
 
@@ -70,13 +72,17 @@
         width: 100%;
         min-height: 100px;
         background: rgb(20, 20, 20);
-         h4, span {
-            color: white;
-            /*background: lightgrey;*/
-
+         h4 {
+            color: #08fdd8;
+             margin: 5px 0 5px 0;
+             font-family: Open Sans sans-serif;
+             font-weight: 700;
+             font-size: 22px;
         }
-        .titleDescription span {
+        span {
             text-align: left;
+            font-weight: 600;
+            color: #a7a7a7;
         }
     }
 }
