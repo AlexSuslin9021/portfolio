@@ -6,8 +6,6 @@ import mail from    '../assets/image/logo/email.svg'
 import location from    '../assets/image/logo/location-pin-svgrepo-com.svg'
 
 
-
-
 export function Footer() {
     return (
         <div className={s.footerBlock}>
