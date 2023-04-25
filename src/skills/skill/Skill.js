@@ -1,7 +1,6 @@
 import React from 'react'
-import s from './Skill.module.css';
+import s from './Skill.module.scss';
 import {Description} from "../../Description/Description";
-
 
 
 function Skill(props) {
@@ -9,11 +8,10 @@ function Skill(props) {
         <div className={s.skill} style={props.style}>
 
             <div className={s.box}>
-           <img src={props.src} alt=""/>
-            <h3>{props.title}</h3>
-            <span className={s.text}>{props.description}</span>
+                <img src={props.src} alt=""/>
+                <h3>{props.title}</h3>
+                <span className={s.text}>{props.description}</span>
             </div>
-            {/*<div className={s.mrg} > </div>*/}
         </div>
     )
 }

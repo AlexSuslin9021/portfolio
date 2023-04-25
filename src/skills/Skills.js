@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './Skills.module.css';
+import s from './Skills.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import {Title} from "../title/Title";
@@ -49,11 +49,6 @@ function Skills() {
         borderColor:`#0096d6`,
         color:`#0096d6`
     }
-
-
-
-
-
 
     return (
         <div className={s.skillsBlock}>
