@@ -1,23 +1,26 @@
-.description{
-    display: flex;
-    width: 100%;
-    position: relative;
+@import "src/common/styles/Scss/mixins";
 
-    p{
-        width: 70%;
-        justify-content: flex-start;
-        font-family: Open Sans,sans-serif;
-        color: #fff;
-        margin-bottom: 40px;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.3;
+.description {
+  display: flex;
+  width: 100%;
+  position: relative;
 
-        }
-    @media screen and (max-width: 950px){
-        width: 90%;
-        justify-content: center;
-    }
+  p {
+    width: 70%;
+    justify-content: flex-start;
+    //font-family: Open Sans,sans-serif;
+    //color: #fff;
+    //margin-bottom: 40px;
+    //font-size: 18px;
+    //font-weight: 700;
+    line-height: 1.3;
+    @include text(#fff, 40px, 18px, 700)
+  }
+
+  @media screen and (max-width: 950px) {
+    width: 90%;
+    justify-content: center;
+  }
 }
 
 

@@ -1,0 +1,7 @@
+@mixin text($color,$marginBottom,$fontSize,$fontWeight){
+  font-family: Open Sans,sans-serif;
+  color: $color;
+  margin-bottom: $marginBottom;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+}
