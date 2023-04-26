@@ -1,4 +1,4 @@
-
+@import "src/common/styles/Scss/variables";
 .mainBlock {
     height: 100vh;
     background: rgb(29,29,29);
@@ -9,7 +9,7 @@
         flex-direction: column;
         justify-content: flex-start;
         h1,.hi,.front{
-            color: #fff;
+            color: $h2Color;
             font-family: Rubik, sans-serif;
             font-weight: 400;
             background: rgb(29,29,29);

@@ -1,4 +1,5 @@
-
+@import "src/common/styles/Scss/mixins";
+@import "src/common/styles/Scss/variables";
 .nav{
     /*border: 1px solid red;*/
     width: 100%;
@@ -8,18 +9,16 @@
         text-align: center;
         width: 100%;
         display: block;
-        font-weight: 700;
-        font-size: 22px;
-        color: #909096;
+        @include text($descriptionColor, 22px, 700);
         line-height: 5rem;
         border-bottom: 1px solid #282828;
         transition: color 0.3s, background-color 0.3s;
         text-decoration: none;
         background-color: transparent;
         cursor: pointer;
-        font-family:OpenSans sans-serif;
+
         &:hover {
-            color: rgb(121,247,218);
+            color: $textColorHeaders;
         }
     }
 }
