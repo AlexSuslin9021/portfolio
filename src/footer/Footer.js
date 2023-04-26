@@ -27,7 +27,7 @@ export function Footer() {
 
                     </div>
                 </div>
-                <span className={s.bottom} >Все права защищены 2023</span>
+                {/*<span className={s.bottom} >Все права защищены 2023</span>*/}
 
 
             </div>

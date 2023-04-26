@@ -49,7 +49,7 @@
         }
         .send{
             border:1px solid $textColorHeaders;
-
+            margin-bottom: 40px;
             background:rgb(29,29,29);
 
             @include text($textColorHeaders,14px,400);

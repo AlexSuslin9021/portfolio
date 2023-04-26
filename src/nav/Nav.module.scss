@@ -2,16 +2,14 @@
 @import "src/common/styles/Scss/variables";
 .nav{
     /*border: 1px solid red;*/
-    width: 100%;
+    max-width:300px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     a{
         text-align: center;
         width: 100%;
         display: block;
-        @include text($descriptionColor, 22px, 700);
-        line-height: 5rem;
-        border-bottom: 1px solid #282828;
+        @include text($descriptionColor, 16px, 700);
         transition: color 0.3s, background-color 0.3s;
         text-decoration: none;
         background-color: transparent;
