@@ -6,12 +6,11 @@ import ReactTypingEffect from 'react-typing-effect';
 
 function Main() {
     return (
-        <div className={s.mainBlock}>
+        <div id={'main'} className={s.mainBlock}>
             <div className={styleContainer.container}>
                 <h1 className={s.text}>
 
                     <span className={s.hi}>Hello, I'm Alex, </span>
-                    {/*<span className={s.hi}>I'm Alex,</span>*/}
                     <span className={s.front}>
                     <ReactTypingEffect
                         text={["Frontend Developer"]}

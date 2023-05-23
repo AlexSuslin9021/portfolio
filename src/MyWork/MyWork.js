@@ -17,7 +17,7 @@ function MyWork() {
         backgroundImage: `url(${todoImage})`
     }
     return (
-        <div className={s.myWorkBlock}>
+        <div id={'myWork'} className={s.myWorkBlock}>
             <div className={`${styleContainer.container} ${s.myWorkContainer}`}>
                 <Fade top>
                     <Title title={'My Works'}/>

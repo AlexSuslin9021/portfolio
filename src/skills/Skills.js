@@ -52,7 +52,7 @@ function Skills() {
     }
 
     return (
-        <div className={s.skillsBlock}>
+        <div id={'skills'} className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <Fade top>
                     <Title title={'Skills'}/>

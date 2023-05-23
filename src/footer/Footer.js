@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 
 export function Footer() {
     return (
-        <div className={s.footerBlock}>
+        <div id={'footer'} className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footer} `}>
              <Fade bottom>
                 <div className={s.cont}>
