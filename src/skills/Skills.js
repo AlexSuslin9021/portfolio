@@ -14,61 +14,82 @@ import reduxToolkit from '../assets/image/logo/reduxToolkit.svg'
 import restApi from '../assets/image/logo/restAPI.svg'
 import JS from '../assets/image/logo/javaScript.svg'
 import {Description} from "../Description/Description";
+import Fade from 'react-reveal/Fade';
 
 
 function Skills() {
-    const htmlClass={
-        borderColor:`lightskyblue`,
-        color:`lightskyblue`
+    const htmlClass = {
+        borderColor: `lightskyblue`,
+        color: `lightskyblue`
     }
-    const cssClass={
-        borderColor:`#e65100`,
-        color:`#e65100`
+    const cssClass = {
+        borderColor: `#e65100`,
+        color: `#e65100`
     }
-    const unitStory={
-        borderColor:`#ff4785`,
-        color:`#ff4785`
+    const unitStory = {
+        borderColor: `#ff4785`,
+        color: `#ff4785`
     }
-    const js={
-        borderColor:`#f1dc50`,
-        color:`#f1dc50`
+    const js = {
+        borderColor: `#f1dc50`,
+        color: `#f1dc50`
     }
-    const formikC={
-        borderColor:`#0051cc`,
-        color:`#0051cc`
+    const formikC = {
+        borderColor: `#0051cc`,
+        color: `#0051cc`
     }
-    const reduxC={
-        borderColor:`#764abc`,
-        color:`#764abc`
+    const reduxC = {
+        borderColor: `#764abc`,
+        color: `#764abc`
     }
-    const typeC={
-        borderColor:`#3178c6`,
-        color:`#3178c6`
+    const typeC = {
+        borderColor: `#3178c6`,
+        color: `#3178c6`
     }
-    const restApiC={
-        borderColor:`#0096d6`,
-        color:`#0096d6`
+    const restApiC = {
+        borderColor: `#0096d6`,
+        color: `#0096d6`
     }
 
     return (
         <div className={s.skillsBlock}>
-            <div className={`${styleContainer.container} ${s.skillsContainer}` }>
-                <Title title={'Skills'}/>
-                <Description text={'Here is the basic stack of technologies that I own. Every day I improve my knowledge, try to apply relevant technologies and go with the times'}/>
-               <div className={s.skills}>
-               <Skill title={'HTML'} description={'Basic knowledge HTML5.'} src={html} style={cssClass}/>
-               <Skill title={'CSS'} description={'Basic knowledge css, Animation, flexbox, Scss, media query.'} src={css} style={htmlClass}/>
-                   <Skill title={'React'} description={'Hook, Hoc,VirtualDom,  functional and class component.'} src={react} style={htmlClass}/>
-               <Skill title={'ReduxToolkit'} description={'Redux and Redux TLK. Thunk.'} src={reduxToolkit} style={reduxC}/>
-                   <Skill title={'JavaScript'} description={'Basic knowledge,  Promise, async/await, type server requests, array and object method …'} src={JS} style={js}/>
-               <Skill title={'Storybook'} description={'Component create for interface.'} src={story} style={unitStory}/>
-               <Skill title={'TypeScript'} description={'All projects write on typescript.'} src={type} style={typeC}/>
-               <Skill title={'RestApi'} description={'Type requests, Request, Response, коды ответа HTTP.'} src={restApi} style={restApiC}/>
-               <Skill title={'Formik'} description={'Basic knowledge Formik.'} src={formik} style={formikC}/>
-               <Skill title={'Unit'} description={'JavaScript unit testing allows you to test small, self-contained units of JavaScript code, which are part of a web page or web application.'} src={unit} style={unitStory}/>
+            <div className={`${styleContainer.container} ${s.skillsContainer}`}>
+                <Fade top>
+                    <Title title={'Skills'}/>
+                    <Description
+                        text={'Here is the basic stack of technologies that I own. Every day I improve my knowledge, try to apply relevant technologies and go with the times'}/>
+                </Fade>
+                    <div className={s.skills}>
+                        <Fade left>
+                        <Skill title={'HTML'} description={'Basic knowledge HTML5.'} src={html} style={cssClass}/>
+                        <Skill title={'CSS'} description={'Basic knowledge css, Animation, flexbox, Scss, media query.'}
+                               src={css} style={htmlClass}/>
+                        <Skill title={'React'} description={'Hook, Hoc,VirtualDom,  functional and class component.'}
+                               src={react} style={htmlClass}/>
+                        </Fade>
+                        <Fade right>
+                        <Skill title={'ReduxToolkit'} description={'Redux and Redux TLK. Thunk.'} src={reduxToolkit}
+                               style={reduxC}/>
+                        <Skill title={'JavaScript'}
+                               description={'Basic knowledge,  Promise, async/await, type server requests, array and object method …'}
+                               src={JS} style={js}/>
+                        <Skill title={'Storybook'} description={'Component create for interface.'} src={story}
+                               style={unitStory}/>
+                        </Fade>
+                        <Fade left>
+                        <Skill title={'TypeScript'} description={'All projects write on typescript.'} src={type}
+                               style={typeC}/>
+                        <Skill title={'RestApi'} description={'Type requests, Request, Response, коды ответа HTTP.'}
+                               src={restApi} style={restApiC}/>
+                        <Skill title={'Formik'} description={'Basic knowledge Formik.'} src={formik} style={formikC}/>
+                        </Fade>
+                        <Fade right>
+                        <Skill title={'Unit'}
+                               description={'JavaScript unit testing allows you to test small, self-contained units of JavaScript code, which are part of a web page or web application.'}
+                               src={unit} style={unitStory}/>
+                        </Fade>
+                    </div>
 
-
-               </div>
             </div>
         </div>
     )

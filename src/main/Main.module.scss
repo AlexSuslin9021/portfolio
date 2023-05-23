@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: flex-start;
 
-    h1, .hi, .front {
+    h1, .hi, {
       color: $h2Color;
       font-family: Rubik, sans-serif;
       font-weight: 400;
@@ -21,6 +21,18 @@
       position: relative;
       @media screen and (max-width: 864px) {
         font-size: 40px;
+      }
+    }
+      .front{
+        color: $textColorHeaders;;
+        font-family: Rubik, sans-serif;
+        font-weight: 400;
+        background: rgb(29, 29, 29);
+        line-height: 1;
+        font-size: 30px;
+        position: relative;
+        @media screen and (max-width: 864px) {
+          font-size: 40px;
       }
     }
 
@@ -36,23 +48,4 @@
 }
 
 
-//h1:before {
-//    content: '<h1>';
-//    font-family: 'La Belle Aurore',cursive;
-//    color: #515152;
-//    font-size: 1.8rem;
-//    position: absolute;
-//    margin-top: -50px;
-//    left: -20px;
-//}
-//
-//h1:after {
-//    content: '<h1/>';
-//    font-family: 'La Belle Aurore',cursive;
-//    color: #515152;
-//    font-size: 1.8rem;
-//    position: absolute;
-//    margin-top:230px;
-//    left: -20px;
-//}
 
