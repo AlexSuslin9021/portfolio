@@ -22,5 +22,8 @@
     .active{
         color:$textColorHeaders
     }
+    @media screen and (max-width: 400px) {
+        display: none;
+    }
 }
 

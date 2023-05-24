@@ -54,11 +54,11 @@ function Skills() {
     return (
         <div id={'skills'} className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <Fade top>
+                {/*<Fade right>*/}
                     <Title title={'Skills'}/>
                     <Description
                         text={'Here is the basic stack of technologies that I own. Every day I improve my knowledge, try to apply relevant technologies and go with the times'}/>
-                </Fade>
+                {/*</Fade>*/}
                     <div className={s.skills}>
                         <Fade left>
                         <Skill title={'HTML'} description={'Basic knowledge HTML5.'} src={html} style={cssClass}/>
