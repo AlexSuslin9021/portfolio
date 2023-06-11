@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import s from './Contact.module.scss';
 import styleContainer from '../common/styles/Container.module.css';
 import {Title} from "../title/Title";
@@ -9,7 +9,7 @@ import emailjs from '@emailjs/browser';
 
 export function Contact() {
     const form = useRef();
-
+const [open, setOpen]=useState(false)
     const sendEmail = (e) => {
 debugger
         e.preventDefault();
@@ -34,9 +34,10 @@ debugger
                    <input name='user_name'  placeholder={'Name'} type="text"/>
                    <input name='user_email'   placeholder={'Email'}  type="email"/>
                     <textarea name='message'  placeholder={'Message'} ></textarea>
-                    <input type="submit" value="Send" />
+                  {/*<span className={s.btn} ><input className={s.send} type="submit" value={''} /> </span>*/}
+                    <button type={'submit'}  className={s.send}>Send message</button>
                 </form>
-                <button  className={s.send}>Send message</button>
+                {/*<button onClick={sendEmail}  className={s.send}>Send message</button>*/}
                 </Fade>
             </div>
         </div>)
