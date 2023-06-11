@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import s from './Contact.module.scss';
 import styleContainer from '../common/styles/Container.module.css';
 import {Title} from "../title/Title";
@@ -7,16 +7,16 @@ import Fade from 'react-reveal/Fade';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-export function Contact() {
+export function Contact({setOpen}) {
     const form = useRef();
-const [open, setOpen]=useState(false)
+
     const sendEmail = (e) => {
 debugger
         e.preventDefault();
 
         emailjs.sendForm('service_2xpisdm', 'template_2m5ekjm',  e.target  , '2zdn0LH42svXWP663')
             .then((result) => {
-                alert( result.text);
+                setOpen(true)
             }, (error) => {
                 alert(error.text);
             });
